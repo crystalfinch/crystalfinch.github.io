@@ -1,0 +1,52 @@
+body {
+	color: #444;
+	font-family: 'Yantramanav', sans-serif;
+	line-height: 1.4em;
+	padding: 40px;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	line-height: 1.4em;
+	margin: 0;
+}
+
+h2 {
+	font-weight: 400;
+	letter-spacing: 1px;
+	line-height: 1.4em;
+	margin: 0 0 0 3px;
+	text-transform: lowercase;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 400;
+	margin: 10px 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	font-size: 18px;
+}
+
+a {
+	color: #1771b5;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	margin: 30px 0 0 5px;
+}
