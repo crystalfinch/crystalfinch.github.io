@@ -1,8 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+@font-face {
+	font-family: 'nerislight';
+	src: url('../fonts/Neris-Light-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
 body {
 	color: #555;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'nerislight', 'Roboto', 'Helvetica Neue', sans-serif;;
 	line-height: 1.4em;
 	margin: 0;
 	padding: 0;
@@ -29,7 +36,7 @@ p {
 	font-weight: 300;
 	line-height: 1.4em;
 	margin: 0 auto 40px;
-	max-width: 765px;
+	max-width: 500px;
 	text-align: center;
 }
 
@@ -45,34 +52,6 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-}
-
-ul.pills {
-	margin: 0 auto;
-	max-width: 765px;
-	padding-bottom: 100px;
-	padding-top: 30px;
-	text-align: center;
-}
-
-ul.pills:after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-ul.pills li {
-	background-color: #eee;
-	border-radius: 2px;
-	display: inline-block;
-	font-size: .8em;
-	font-weight: 500;
-	letter-spacing: .025em;
-	line-height: 1em;
-	margin-right: 5px;
-	margin-bottom: .75em;
-	padding: .65em .9em .75em;
-	white-space: nowrap;
 }
 
 .wrap {
